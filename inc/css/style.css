@@ -1,0 +1,490 @@
+@charset "UTF-8";
+
+
+/*****************************************************************************************
+/* Fichier ...................... : style.css
+/* Type ......................... : Document CSS
+/* Titre ........................ : Feuille de style pour "Annabelle Nicole CV"
+/* Auteur ....................... : Annabelle Nicole
+/* Date de création ............. : mars 2022
+/*****************************************************************************************/
+
+
+/**************************/
+/* Mise en forme générale */
+/**************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E8EDDF;
+}
+
+main{
+    background-color: #30313a;
+    background-repeat:repeat;
+    margin: 13px;
+    height: 100%;
+}
+
+/**************************/
+/* Header */
+/**************************/
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    max-height: 60px;
+}
+
+.dev{
+    font-size: 0.9em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header {
+    margin-bottom: 5px;
+}
+
+ a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+/**************************/
+/* Menu */
+/**************************/
+
+.stroke  {
+    font-size: 0.7em;
+    margin: 8px;
+    padding: 2px;
+    list-style: none;
+
+}
+
+nav{
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+  nav ul li a {
+    text-decoration: none;
+    color: #d6d5ca;
+  }
+  
+  nav ul li a:hover{
+    color: #1b1e1f;
+  }
+
+/**************************/
+/* corps */
+/**************************/
+
+.img-retour {
+    width: 25px;
+    margin-right: 0px;
+}
+
+.accueil{
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.bonjour{
+    color: #a5b7bb;
+    font-size: 2em;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.titre {
+    text-align: start;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.p-titre {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+.p-connecto {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1em;
+}
+
+.lien-titre{
+    display: flex;
+    color: #a5b7bb;
+    font-size: 1.7em;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.lien-titre:hover{
+    color: #ffffff;
+}
+
+.texte-accueil{
+    color: #fff;
+    font-size: 0.7em;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 20px;
+}
+
+.cv {
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.main {
+    width: 30px;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icone{
+    width: 15px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+ol{
+    margin-bottom: 10px;
+}
+
+ol > li{
+    /* font-size: 0.8em; */
+    margin-left: 25px;
+    list-style-type: circle;
+    justify-content: center;
+    text-align: left; 
+     padding: 5px;
+} 
+
+.logo{
+    width: 30px;
+    margin: 10px;
+}
+
+.entete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+video {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titre-video {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.format-cell {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+.photo-cell{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+justify-content: space-around;}
+
+.texte-cell {
+    display: none;
+}
+
+.texte-cell p:first-child{
+    margin-left: 20px;
+}
+
+.texte-cell p:nth-child(2){
+    margin-left: 35px;;
+}
+
+.texte-cell p:nth-child(3){
+    margin-left: 25px;;
+}
+
+.texte-cell p:nth-child(4){
+    margin-left: 15px;;
+}
+
+.texte-cell p:nth-child(5){
+    margin-left: 15px;;
+}
+
+#contraintes {
+    display: none;
+}
+
+#en-savoir-plus {
+    display: none;
+}
+
+#analyse {
+    display: none;
+}
+
+#bd {
+    display: none;
+}
+
+button {
+    display: block;
+    background-color: transparent;
+    color: #ffffff;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.a-figma {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+button:hover {
+    color: #a5b7bb;
+    border-bottom: 1px solid #a5b7bb;
+}
+/**************************/
+/* footer */
+/**************************/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+    margin-top: 400px;
+    justify-content: space-between;
+}
+
+/**************************/
+/* responsive */
+/**************************/
+
+@media screen and (min-width: 375px){
+
+    .stroke {
+        display: flex;
+        font-family: 'Teko', sans-serif;
+        font-size: 0.8em;
+        font-weight: lighter;
+    }
+    li{
+        justify-content: center;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        width: 80%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 425px){
+
+    .bonjour{
+        margin-left: 0px;
+    }
+
+    .stroke {
+        display: flex;
+        font-family: 'Teko', sans-serif;
+        font-size: 1em;
+        font-weight: lighter;
+    }
+    li{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .accueil {
+        text-align: center;
+    }
+
+    .texte-accueil {
+        font-size: 1em;
+        text-align: left;
+        width: 80%;
+    }
+
+    .projet-lien a {
+        font-size: 0.9em;
+        padding: 8px;
+        }
+
+    #contraintes {
+        display: none;
+        width: 80%;
+        margin: auto;
+        }
+
+}
+
+@media screen and (min-width: 768px){
+
+    .stroke {
+        font-size: 2.5em;
+        padding: 8px;
+        align-items: center;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        font-size: 0.4em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    .accueil {
+        text-align: center;
+    }
+
+    .texte-accueil {
+        font-size: 1em;
+        text-align: left;
+        /* border-radius: 20px; */
+        padding: 25px;
+        /* width: 60%; */
+    }
+
+}
+@media screen and (min-width: 1024px){
+
+    main{
+        background-position: center;
+        background-size: 200%;
+    }
+
+    .stroke{
+        font-size: 2.5em;
+    }
+
+    h1{
+        margin-bottom: 10px;
+    }
+    .dev{
+        margin-bottom: 10px;
+    }
+    
+    .logo-section{
+        display: flex;
+        flex-direction: row;
+        margin-bottom:30px;
+    }
+
+    .block-texte {
+        width: 70%;
+        margin: auto;
+    }
+
+    .format-cell {
+    width: 15%;
+    height: 15%;
+}
+
+    .titre-video {
+    font-size: 1em;
+}
+
+    .texte-cell {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    
+    video {
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+}
+
+@media screen and (min-width: 1440px){
+
+    .text{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .titre-video {
+        font-size: 2em;
+    }
+}
+
+@keyframes rotate {
+    0% {
+   transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(720deg);
+    }
+}
+.animated {
+    animation: rotate 6s ease-out  1;
+    height: 30px;
+    width: 30px;
+}
+
+.droit{
+    font-size: 0.8em;
+}
