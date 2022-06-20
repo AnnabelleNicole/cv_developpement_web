@@ -319,6 +319,10 @@ button {
     color: rgb(0, 0, 0);
 }
 
+.a-figma:hover {
+    color: #a5b7bb;
+}
+
 button:hover {
     color: #a5b7bb;
     border-bottom: 1px solid #a5b7bb;
