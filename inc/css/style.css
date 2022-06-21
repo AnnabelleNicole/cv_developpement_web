@@ -229,6 +229,9 @@ hr {
     color: #79898d;
 }
 
+.img-cv {
+    width: 90%;
+}
 
 .cv {
     padding: 10px;
@@ -512,6 +515,10 @@ footer{
     margin-bottom: 30px;
 }
 
+    .img-cv {
+    width: 60%;
+}
+
 }
 
 @media screen and (min-width: 1440px){
@@ -521,6 +528,9 @@ footer{
         margin-right: 250px;
     }
 
+    .img-cv {
+        width: 40%;
+    }
     .titre-video {
         font-size: 2em;
     }
